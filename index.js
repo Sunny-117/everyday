@@ -6,7 +6,7 @@ const dayjs = require("dayjs");
 
 const token = core.getInput("token");
 const octokit = new Octokit({
-    auth: token,
+    auth: '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',
 });
 
 // octokit api create issue
