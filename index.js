@@ -3,7 +3,6 @@ const core = require("@actions/core");
 const dayjs = require("dayjs");
 
 // nodejs12
-
 const token = core.getInput("token");
 console.log(token)
 
