@@ -5,6 +5,7 @@ const dayjs = require("dayjs");
 // nodejs12
 
 const token = core.getInput("token");
+console.log(token)
 
 const octokit = new Octokit({
     auth: token,
