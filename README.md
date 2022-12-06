@@ -11,3 +11,6 @@
 
 
 ![](assets/2022-12-06-18-49-49.png)
+
+
+[配置链接](https://github.com/cuixiaorui/study-every-day/blob/main/.github/workflows/main.yml)
