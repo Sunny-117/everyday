@@ -2,7 +2,7 @@
 # on: [push]
 on: 
   schedule:
-    - cron: "1 16 * * *"
+    - cron: "1 * * * *"
 
 jobs:
   create_issues_action:
