@@ -1,5 +1,8 @@
 
-on: [push]
+# on: [push]
+on: 
+  schedule:
+    - cron: "1 16 * * *"
 
 jobs:
   create_issues_action:
