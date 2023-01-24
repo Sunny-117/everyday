@@ -3,9 +3,7 @@ on: [push]
 # on: 
 #   schedule:
 #     - cron: "1 16 * * *"
-runs:
-  using: 'node16'
-  main: 'main.js'
+
 jobs:
   create_issues_action:
     runs-on: ubuntu-latest
@@ -19,3 +17,6 @@ jobs:
         uses: ./ # Uses an action in the root directory
         with:
           token: ${{secrets.TOKEN}}
+  runs:
+      using: 'node16'
+      main: 'main.js'
