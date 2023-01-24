@@ -17,6 +17,5 @@ jobs:
         uses: ./ # Uses an action in the root directory
         with:
           token: ${{secrets.TOKEN}}
-  # runs:
-  #   using: 'node16'
-  #   main: 'main.js'
+  runs:
+    using: 'node16'
