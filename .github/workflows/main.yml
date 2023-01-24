@@ -1,8 +1,8 @@
 
-# on: [push]
-on: 
-  schedule:
-    - cron: "1 16 * * *"
+on: [push]
+# on: 
+#   schedule:
+#     - cron: "1 16 * * *"
 runs:
   using: 'node16'
   main: 'main.js'
