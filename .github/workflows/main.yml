@@ -19,4 +19,4 @@ jobs:
           token: ${{secrets.TOKEN}}
     runs:
       using: 'node16'
-      main: 'main.js'
+      main: 'index.js'
